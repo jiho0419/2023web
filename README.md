@@ -53,7 +53,7 @@
         
 
 **① :**      
-<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/1f98acf1-a72b-45a2-a26b-9cfd76927558" width="400" height="400"/>
+<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/babffe48-4d6d-4f29-9993-e59a75ebe127" width="150" height="100"/><br/>
 [웹 페이지 Logo]       
 > 웹 페이지 이름: FBD(For Beginner Developer)        
 > 초보 개발자를 위한 사이트라는 의미로 지었습니다.              
