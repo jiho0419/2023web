@@ -159,7 +159,7 @@ Support: Support는 웹 제작자에게 문의하는 기능이야! 웹 페이지
 ```
 <br/>    
 
-**⑨ :**    <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/34edbe3c-1bfc-4c27-80e9-0e52bb90d806" width="350" height="150"/>       <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/70ba7575-0fd3-40a2-9423-b92056d22af2" width="150" height="150"/>    [웹 페이지 로고]        
+**⑨ :**    <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/34edbe3c-1bfc-4c27-80e9-0e52bb90d806" width="350" height="150"/>       <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/70ba7575-0fd3-40a2-9423-b92056d22af2" width="200" height="150"/>    [웹 페이지 로고]        
 >제작자에 대한 정보가 적혀있습니다.                
 >Facebook, instagram, youtube, 트위치, Github, Discord의 사진에 태그를 달아서 각 사이트에 연결하게 디자인했습니다.          
 제작자의 각종 매개체를 확인할 수 있게 만들었습니다.             
