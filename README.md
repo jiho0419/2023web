@@ -40,11 +40,8 @@
 ***    
         
 **구상한 웹 페이지 디자인**      
-<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/1f98acf1-a72b-45a2-a26b-9cfd76927558" width="400" height="400"/>            
-[최종 디자인]                             
-                            
-<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/c837db1c-7449-431a-80c0-13db9aae6e38" width="400" height="400"/>            
-[웹 페이지 박스]                            
+<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/1f98acf1-a72b-45a2-a26b-9cfd76927558" width="400" height="400"/>&nbsp;<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/c837db1c-7449-431a-80c0-13db9aae6e38" width="400" height="400"/><br/>           
+[최종 디자인]&nbsp;&nbsp;[웹 페이지 박스]                            
              
                
                                                                        
