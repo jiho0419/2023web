@@ -52,9 +52,7 @@
 **웹 페이지에 대한 부가설명**           
         
 
-**① :**      
-<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/babffe48-4d6d-4f29-9993-e59a75ebe127" width="150" height="100"/><br/>
-[웹 페이지 Logo]       
+**① :**    <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/a19c3d59-a27d-4404-a1b9-64ca8aab35df" width="200" height="100"/>   <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/babffe48-4d6d-4f29-9993-e59a75ebe127" width="150" height="100"/>   [웹 페이지 Logo]       
 > 웹 페이지 이름: FBD(For Beginner Developer)        
 > 초보 개발자를 위한 사이트라는 의미로 지었습니다.              
               
@@ -65,33 +63,31 @@
 <br/>       
 
              
-**② :**            
+**② :**  <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/5cd9b26a-7da4-4706-b5fc-d2f85e834c6b" width="250" height="100"/>          
 > 이 사이트의 이름을 토대로 ForBeginnerDeveloper.com으로 정했습니다.            
 
 <br/>       
 
-**③ :**            
-[버튼 디자인]        
+**③ :**   <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/afe21812-8434-43a7-a96d-1c1d017c8f20" width="100" height="100"/>   <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/f0866373-bae4-4a1b-a61e-6f7022bda97d" width="150" height="150"/>     [버튼 디자인]        
 > 이 버튼을 클릭하면 6번의 카테고리 안에 있는 모든 정보를 펼쳐서 볼 수 있는 버튼입니다.       
 > 카테고리 안에 어떤 내용이 있는 지 한 눈에 볼 수 있습니다. 이 웹 페이지의 로고의 새싹으로 디자인했습니다.        
 
 <br/>
     
-**④ :**        
+**④ :**     <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/5e396d9e-3800-4a08-af96-b8850380ed0d" width="250" height="100"/>      
  > 웹 페이지의 우측 상단에 로그인과 정보를 입력할 수 있는 검색창을 만들었습니다.    
  > 로그인은 Question / Study / Project를 이용하는데 불편함이 없이 만들게 되었습니다. 검색창을 통해 웹페이지에 자신이 원하는 정보를 바로 찾을 수 있습니다.          
 
 <br/>    
 
-**⑤ :**        
- [글자 폰트]         
+**⑤ :**     <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/0fb0b8fd-6b56-47f3-b9cc-7a2257fddde2" width="250" height="150"/>   <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/881e0369-7204-4305-8e9e-8f92ba62ece7" width="250" height="150"/>   [글자 폰트]         
 > 웹 페이지의 상단 가운데 위치해 웹 페이지를 이용하는 사용자가 어떤 사이트인지 한눈에 알 수 있습니다.        
 > 폰트는 코딩 사이트를 생각하며 게임 폰트로 만들었습니다.        
 
  <br/>     
       
-**⑥ :**          
-[카테고리 클릭 시]          
+**⑥ :**     <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/0fab44b4-450f-42d8-bcb2-a2dc95f4fa36" width="400" height="100"/><br/>     
+<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/eeb67256-b357-47c6-a6db-4ff82564f620" width="150" height="250"/>      [카테고리 클릭 시]          
 > 카테고리를 클릭 할 때 부제목에 물방울 모양을 적용하고 그 밑에 내용을 -으로 정리한 형식으로 디자인했습니다.     
 > 물방울은 새싹에 성장할 수 있는 힘으로 의미를 가지고 있습니다.                 
                 
@@ -118,7 +114,7 @@
 <br/>
 
            
-**⑦ :**     [웹 캐릭터 디자인”기너”]          
+**⑦ :**    <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/732a6de8-2488-4b82-8c5d-019dd8eb17d6" width="80" height="200"/>   <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/64a16ec4-4653-4214-b728-d1abcd8ecd50" width="150" height="150"/>    <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/7cd7219a-126b-4a86-9f9f-dab3b00af2a2" width="150" height="150"/>    <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/6104f058-2bf4-4615-b8c2-7a99b5611bfc" width="150" height="150"/>     <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/1495deef-a8e7-4c23-af7d-ea145fd5203a" width="150" height="150"/>     [웹 캐릭터 디자인”기너”]          
 > 다른 코딩사이트를 이용할 때 딱딱한 느낌을 받았습니다. 그래서 FBD에는 캐릭터가 코딩에 대해서 가이드해주는 것을 생각하게 되었습니다.       
 > 이름은 Beginner의 ginner를 따 “기너”로 정했습니다. 캐릭터 디자인은 씨앗으로 공부에 도움을 주는 캐릭터입니다.       
 > FBD에 처음 들어온 사용자에게 기너가 페이지에 대해 설명해주고 기능에 대해서 알려주는 형식으로 만들었습니다.             
@@ -127,7 +123,7 @@
 <br/>
 
            
-**⑧ :**     
+**⑧ :**      <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/1d98bb11-2ce8-44f3-a867-f70b1a901324" width="150" height="250"/>
 > 8번은 사용자가 처음 웹 페이지를 들어왔을 때 웹 페이지 사용하는데 도움을 줄 수 있게 디자인했습니다.       
 > (Q: 의 폰트는 굵게 하여 질문이라는 것을 인식)              
         
@@ -163,8 +159,7 @@ Support: Support는 웹 제작자에게 문의하는 기능이야! 웹 페이지
 ```
 <br/>    
 
-**⑨ :**         
-[웹 페이지 로고]        
+**⑨ :**    <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/34edbe3c-1bfc-4c27-80e9-0e52bb90d806" width="250" height="150"/>       <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/70ba7575-0fd3-40a2-9423-b92056d22af2" width="150" height="150"/>    [웹 페이지 로고]        
 >제작자에 대한 정보가 적혀있습니다.                
 >Facebook, instagram, youtube, 트위치, Github, Discord의 사진에 태그를 달아서 각 사이트에 연결하게 디자인했습니다.          
 제작자의 각종 매개체를 확인할 수 있게 만들었습니다.             
