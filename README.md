@@ -42,10 +42,12 @@
 **구상한 웹 페이지 디자인**      
 <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/1f98acf1-a72b-45a2-a26b-9cfd76927558" width="400" height="400"/>            
 [최종 디자인]                             
-                           
-<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/c837db1c-7449-431a-80c0-13db9aae6e38" width="400" height="400"/>          
-[웹 페이지 박스]                       
-                                                 
+                            
+<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/c837db1c-7449-431a-80c0-13db9aae6e38" width="400" height="400"/>            
+[웹 페이지 박스]                            
+             
+               
+                                                                       
 > 기존 코딩사이트의 디자인 검정색으로 딱딱한 느낌으로 FBD 디자인은 연두색, 베이지로 부드러운 느낌으로 사용자가 스스럼없이 들어올 수 있게 구상했습니다.      
       
 ***                  
