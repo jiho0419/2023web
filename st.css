@@ -1,0 +1,521 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+
+
+header{ /*학복스로고와 검색 로그인*/
+    display: block; 
+    height: 88px;
+    border-bottom: 1px solid #ecedf1; /*밑줄*/
+}
+.box1{
+    display: flex;
+    justify-content: space-between; /*양 옆으로 배치*/
+    height: 88px;
+    margin: 0 auto; /*가로 중앙 정렬하기 위해서 사용*/
+    width: 80%; /*header의 80%만 사용*/
+    max-width: 1032px;
+}
+.uvs-logo{
+    background-image: url(https://www.univstore.com/image/logo.png);
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    width: 280px;
+    height: 88px;
+    display: block;
+}
+.button-box1{
+    display: flex;
+    height: 88px;
+    line-height: 88px; /*행의 높이 텍스트 줄 간격*/
+    
+}
+a.search-button{
+    margin-right: 32px;
+    color: #787a87; 
+    font-size: 13px;
+    text-decoration: none; /*a태그 밑줄 없음*/
+}
+a.login-button{
+    color: #787a87;
+    font-size: 13px;
+    text-decoration: none; /*a태그 밑줄 없음*/
+}
+
+
+
+.container2{ /*카테고리 버튼들*/
+    display: block;
+    height: 60px;
+    border-bottom: 1px solid #ecedf1; /*밑줄*/
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin: 0 auto; /*가로 중앙 정렬하기 위해서 사용*/
+    width: 80%; /*container2 80%로만 사용*/
+    max-width: 1032px;
+    align-items: center; /*안에 있는 a태그들를 가운데로 배치*/
+}
+.right-button{
+    margin-left: -12px;
+}
+.left-button{
+    margin-right: -12px;
+}
+.rbutton{
+    display: inline-block; /*인라인 블록으로 일자로 만듬*/
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold; 
+    text-decoration: none; /* a태그 밑줄 없음*/
+}
+.lbutton{
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold; 
+    text-decoration: none; /* a태그 밑줄 없음*/
+}
+
+
+.container3{/*광고*/
+    display: block;
+    height: 525px;
+    background: rgb(241, 241, 241);
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /*가로 중앙 정렬하기 위해서 사용*/
+    width: 80%; /*container1 80%로만 사용*/
+    max-width: 1032px;
+}
+.apple-pad{
+    background-image: url(https://image.univstore.com/20231023_apple_ipad_promotion_faf9f8_web_maintop.png);
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    width: 1032px; /*이미지를 가득 채우기 위해서 설정한 최대 크기로 설정*/
+    height: 525px; /*이미지를 가득 채우기 위해서 설정한 최대 크기로 설정*/
+    display: block;
+}
+
+
+.container4{
+    display: flex;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; /*가로 중앙 정렬하기 위해서 사용*/
+    width: 80%; /*container1 80%로만 사용*/
+    max-width: 1032px;
+}
+.round-button {
+    display: flex;
+    flex-direction: column; /*수직으로*/
+    align-items: center;
+    justify-content: flex-end; /*밑으로*/
+    width: 90px;
+    height: 90px;
+    background-size: cover; /*이미지 원본이 전체가 들어갈 수 있게*/
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    background-position: center;
+    border-radius: 50%; /*원*/
+    text-decoration: none; /*a태그 밑줄 없애기*/
+}
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-box p {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0 -40px;
+}
+
+
+.container5{
+    background-color: rgb(249, 244, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /*가로 중앙 정렬하기 위해서 사용*/
+}
+.kakao-pay{
+    background-image: url(https://image.univstore.com/20231101_payment_event_mainline.jpg);
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    width: 1032px;
+    height: 84px; /*이미지를 가득 채우기 위해서 설정한 최대 크기로 설정*/
+    display: block;
+}
+
+
+.container6{   
+    display: block;
+    margin: 64px auto;
+    width: 80%; /*container6 80%로만 사용*/
+    max-width: 1032px;
+}
+.container6_2{   
+    display: block;
+    margin: 64px auto;
+    width: 80%; /*container6 80%로만 사용*/
+    max-width: 1032px;
+}
+.recommed-pick{
+    padding-bottom: 37px;
+    margin: 0px;
+}
+.box6{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.it-item{
+    display: inline-flex; /* 기본적으로 행으로 표시되도록 수정 */
+    flex-direction: column;
+    width: 245px;
+    height: 500px;
+}
+.item-picture{
+    background-color: rgb(245, 245,245);
+    background-size: cover; /*이미지 원본이 전체가 들어갈 수 있게*/
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    background-position: center;
+    border-radius: 8px; /*둥근 사각형*/
+    margin-right: 8px;
+    width: 235px;
+    height: 250px;
+}
+.item-explanation{
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+}
+.corp {
+    text-decoration: none; /* a태그 밑줄 없음*/
+    font-size: 13px;
+    color: #787a87;
+}
+.item-corp{
+    text-decoration: none; /* a태그 밑줄 없음*/
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    padding-top: 6px;
+}
+.item-name{
+    margin: 6px 0px;
+    font-size: 13px;
+    color: #787a87;
+}
+.item-price{
+    margin: 6px 0px; 
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #9092a1;
+}
+.item-sale
+{
+    background-color: #9092a1;
+    color: white;
+    font-size: 12px;
+    padding: 8px 16px;
+    text-align: center; 
+    width: max-content; /*넓이를 콘텐츠 사이즈로 딱 맞춤*/
+    font-weight: bold;
+    border-radius: 3px; /*외각을 둥글게*/
+    text-decoration: none; /* a태그 밑줄 없음*/
+}
+
+
+.container7{
+    display: block;
+    margin: 64px auto;
+    width: 80%; /*container7 80%로만 사용*/
+    max-width: 1032px;
+}
+.contents-text{
+    text-decoration: none; /* a태그 밑줄 없음*/
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+.contents-picture{
+    position: relative; 
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    height: 460px;
+    display: block;
+    text-decoration: none; /* a태그 밑줄 없음*/
+}
+.cp-textbox{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin-left: 56px;
+    position: absolute;
+    top: 50%;  /*위에 contents-picture의 top에서 50% 내림*/
+    transform: translate(0, -50%); /*높이를 50%으로 올림 top과 transform을 이용해서 중앙에 위치*/
+}
+.cp-tb1{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.cp-tb2{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.cp-tb3{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /*문자사이 높이*/
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.cp-tb4{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    opacity: .7; /*투명도 70%*/
+}
+.contents-item{
+    display: inline-flex; /* 기본적으로 행으로 표시되도록 수정 */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.citem-box{
+    display: flex;
+    width: 480px;
+    height: 150px;
+    padding-bottom: 25px;
+}
+.citem-picture{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-size: cover; /*이미지 원본이 전체가 들어갈 수 있게*/
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    background-position: center;
+    border-radius: 8px; /*둥근 사각형*/
+    width: 220px; 
+    height: 150px; 
+}
+.citem-explanation{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+
+.container8{
+    display: block;
+    margin-top: 64px;
+    margin-bottom: 96px;
+}
+.ct8-classbox{
+    background-color: rgb(255, 241, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 185px;
+    margin: 0 auto; /*가로 중앙 정렬하기 위해서 사용*/
+}
+.class101{
+    background-image: url(https://image.univstore.com/20231101_class101_web_maincarousel.png);
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    width: 1032px;
+    height: 185px; /*이미지를 가득 채우기 위해서 설정한 최대 크기로 설정*/
+    display: block;
+}
+
+
+.container9{
+    display: block;
+    margin: 64px auto;
+    width: 80%; /*container9 80%로만 사용
+    max-width: 1032px;
+    padding-top: 80px;
+    border-top: 1px solid #ecedf1; /*밑줄*/
+}
+.company{
+    display: inline-flex;
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    margin: 0 9px 18px;
+    width: 235px;
+    height: 130px;
+    background-color: #fbfbfb;
+}
+
+
+.container10{
+    display: block;
+    margin: 64px auto;
+    width: 80%; /*container10 80%로만 사용*/
+    max-width: 1032px;
+    padding-top: 35px;
+    border-top: 1px solid #ecedf1; /*밑줄*/
+}
+.ct10-textbox{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ct10-explanbox{
+    display: inline-flex;
+    flex-direction: column;
+    width: 513px;
+    height: 180px;
+}
+.ct10-expicutre{
+    background-size: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 32px;
+}
+.ct10-extitle1{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.ct10-extitle2{
+    text-align: center;
+    color: #787a87;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+.footer{
+    background-color: #f9f9f9;
+    padding-bottom: 34px;
+}
+.container11
+{
+    display: block;
+    margin: 0 auto;
+    width: 80%; /*container10 80%로만 사용*/
+    max-width: 1032px;
+    padding-top: 48px;
+}
+.ct11-textbox{
+    display: flex;
+    justify-content: space-between;
+    color: #787a87;
+    margin-bottom: 40px;
+}
+.ct11-tb1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 170px;
+}
+.ct11-tb1-box1{
+    margin-top: 0px;
+    margin-bottom: 11px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ct11-tb1-box2{
+    color: #787a87;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.ct11-tb1-box3{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    width: max-content;
+}
+.ct11-tb1-box4{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px 32px 0px;
+}
+.ct11-tb1-box5{
+    font-size: 13px;
+}
+.ct11-tb1-box5-a1{
+    margin-right: 11px;
+    color: #787a87;
+}
+.ct11-tb1-box5-a2{
+    color: #787a87;
+}
+
+.ct11-tb2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ct11-tb2-box1 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #787a87;
+}
+.ct11-tb2-box1-div1{
+    margin-bottom: 5px;
+}   
+
+.ct11-tb2-box1-div2{
+
+}
+.ct11-tb2-box2>img{
+    display: inline-block;
+    width: auto;
+    height: 16px;
+    padding-right: 4px;
+    margin-right: 4px;
+    vertical-align: text-top;
+}
+.ct11-tb2-box3{
+    font-size: 13px;
+}
+.ct11-tb2-box3-img{
+    display: inline-block;
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    width: 15px;
+    height: 15px;
+}
+.ct11-tb2-box3-instagram{
+    color: #9092a1;
+}
+
+.ct11-explan{
+    border-top: 1px solid #ecedf1; /*밑줄*/
+}
+.ct11-extext{
+    color: #9092a1;
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 0px;
+}
