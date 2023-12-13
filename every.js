@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const linkElement = document.createElement("a");
         linkElement.href = imageData.link;
-        linkElement.target = "_blank"; // Open link in a new tab
+        linkElement.target = "_self"; 
 
         const imgElement = document.createElement("img");
         imgElement.src = imageData.url;
