@@ -84,27 +84,33 @@ a.login-button{
 }
 
 
-.container3{/*광고*/
+.container3 {
     display: block;
     height: 525px;
-    background: rgb(241, 241, 241);
 }
-.box3{
+
+.box3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto; /*가로 중앙 정렬하기 위해서 사용*/
-    width: 80%; /*container1 80%로만 사용*/
+    margin: 0 auto;
+    width: 80%;
     max-width: 1032px;
+    height: 100%;
 }
-.apple-pad{
-    background-image: url(https://image.univstore.com/20231023_apple_ipad_promotion_faf9f8_web_maintop.png);
-    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
-    background-position: center;
-    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
-    width: 1032px; /*이미지를 가득 채우기 위해서 설정한 최대 크기로 설정*/
-    height: 525px; /*이미지를 가득 채우기 위해서 설정한 최대 크기로 설정*/
-    display: block;
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 525px;
+}
+
+.carousel-item img {
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 

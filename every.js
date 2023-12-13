@@ -1,22 +1,43 @@
 // container3
 document.addEventListener("DOMContentLoaded", function () {
     const imageUrls = [
-        "https://image.univstore.com/20231023_apple_ipad_promotion_faf9f8_web_maintop.png"
+        {
+            url: "https://image.univstore.com/20231023_apple_ipad_promotion_faf9f8_web_maintop.png",
+            link: "https://www.univstore.com/event/20230908_apple_ipadairdg"
+        },
+        {
+            url: "https://image.univstore.com/20231209_samsung_galaxy_tabs9_d1d0ff_web_maintop.png",
+            link: "https://www.univstore.com/event/20230804_samsung_galaxy_promotion"
+        },
+        {
+            url: "./FBD_s.png",
+            link: "./fbd.html"
+        }
     ];
 
-    const container = document.getElementById("ct3");
+    const container3 = document.querySelector('.container3');
+    const box3 = document.querySelector('.box3');
+    const carouselInner = document.getElementById("carouselInner");
 
-    imageUrls.map((imageUrl, index) => {
-        
+    imageUrls.map((imageData, index) => {
+        const carouselItem = document.createElement("div");
+        carouselItem.className = index === 0 ? "carousel-item active" : "carousel-item";
+
         const linkElement = document.createElement("a");
-        linkElement.className = "apple-pad";
-        linkElement.href = `https://www.univstore.com/event/20230908_apple_ipadairdg`;
+        linkElement.href = imageData.link;
+        linkElement.target = "_blank"; // Open link in a new tab
 
-        linkElement.style.backgroundImage = `url(${imageUrl})`;
+        const imgElement = document.createElement("img");
+        imgElement.src = imageData.url;
+        imgElement.className = "d-block w-100";
+        imgElement.alt = "carousel-image";
 
-        container.appendChild(linkElement);
+        linkElement.appendChild(imgElement);
+        carouselItem.appendChild(linkElement);
+        carouselInner.appendChild(carouselItem);
     });
 });
+    
 
 
 // container4
@@ -343,7 +364,7 @@ const items2 = [
       brandLink: 'https://www.univstore.com/brand/hvisk',
       saleLink: 'https://www.univstore.com/user/login?redirect=/item/3371'}
       ,
-      { imageUrl: 'https://image.univstore.com/H0207_thumbnail-01.jpg',  /* 7 */ 
+      { imageUrl: 'https://image.univstore.com/H0207_thumbnail-01.jpg',  /* 7 */        
       brand: '오아>', 
       productName: '플렌티무드 미니 소형 초음파 무드등 가습기', 
       itemName: 'H0207', price: '54,900원', 
