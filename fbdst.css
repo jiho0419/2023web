@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+
+
+header{ /*화분 검색 로그인*/
+    display: block; 
+    height: 150px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.ct-button{
+    display: flex;
+    justify-content: space-between; /*양 옆으로 배치*/
+    align-items: center;
+    height: 40px;
+    padding-left: 30px;
+    width: 95%; 
+}
+.login-search{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+}
+.search-button{
+    color: burlywood;
+    font-size: 17px;
+    text-decoration: none;
+}
+.login-button{
+    color: burlywood;
+    font-size: 17px;
+    text-decoration: none;
+}
+.pot{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pot-picture{
+    display: block;
+    background-image: url(./FBD_pot.png);
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    width: 27px;
+    height: 27px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.logo-picture{
+    display: block;
+    background-image: url(./FBD_font.png);
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    width: 140px;
+    height: 140px;
+}
+
+
+
+.container2 {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#main-menu > li {
+    float: left;
+    position: relative;
+    width: 170px;
+}
+#main-menu > li > a {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.85);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    display: block;
+    padding: 14px 36px;
+    border-right: 1px solid rgba(0,0,0,0.15);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    background: burlywood;    
+}
+#main-menu > li:nth-child(1) > a {
+    border-left: 1px solid rgba(0,0,0,0.15);
+}
+#sub-menu {
+    position: absolute;
+    background: rgb(116, 47, 47);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in;
+    width: 170px;
+    z-index: 2;
+}
+#sub-menu > li {
+      padding: 16px 28px;
+      border-bottom: 1px solid rgba(0,0,0,0.15);
+      position: relative;
+}
+#sub-menu > li >  a {
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+#main-menu > li:hover > #sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+#sub-menu > li >  a:hover {
+   text-decoration: underline;
+}
+section {
+    column-width: 15em;
+    background: #dadadf;
+    padding: 2em 12em;
+}
+#ssub-menu {
+      position: absolute;
+      background: darkred;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.15s ease-in;
+      width: 170px;
+      left: 0; 
+      top: 100%; 
+      z-index: 1; 
+}
+#sub-menu > li > #ssub-menu {
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.15s ease-in;
+      width: 170px;
+      left: 0; 
+      top: 100%;
+      z-index: 1; 
+}
+#ssub-menu > li {
+      padding: 16px 28px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+#sub-menu > li:hover #ssub-menu {
+      opacity: 1;
+      visibility: visible;
+}
+#ssub-menu > li > a {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+}
+
+
+
+#sub-menu.sub-menu-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.container3{
+    display: block;
+    background-color: rgb(216, 195, 167); 
+    margin: 0 auto;
+    width: 71.7%;
+}
+.box3{
+    display: flex;
+    margin-top: 1px;
+    background-color: rgb(216, 195, 167); 
+}
+.navbar-name1{
+    margin-left: 10px;
+    display: flex;
+    width: 30px;
+    align-items: center;
+    color: rgba(255,255,255,0.85);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    font-size: 13px;
+    height: 30px;
+}
+.navbar-name2{
+    margin-left: 10px;
+    display: flex;
+    width: 30px;
+    align-items: center;
+    color: rgba(255,255,255,0.85);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    font-size: 13px;
+    height: 30px;
+}
+.navbar-and{
+    margin-left: 10px;
+    display: flex;
+    width: 20px;
+    align-items: center;
+    color: rgba(255,255,255,0.85);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    font-size: 13px;
+    height: 30px;
+}
+
+
+
+
+.container4{
+    display: block;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 77%;
+    height: 100%;
+}
+.explanation-box{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-top: 30px;
+}
+.ginner1{
+    width: 500px;
+    height: 500px;
+    background-image: url('./FBD_ginner1.png');
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+}
+.ginner2{
+    width: 500px;
+    height: 500px;
+    background-image: url('./FBD_ginner2.png');
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+}
+.ginner3{
+    width: 500px;
+    height: 500px;
+    background-image: url('./FBD_ginner3.png');
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+}
+.ginner4{
+    width: 500px;
+    height: 500px;
+    background-image: url('./FBD_ginner4.png');
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+}
+
+.QAL-box{
+    position: relative;
+    margin-top: 40px;
+    width: 1000px;
+    height: 400px;
+    background-image: url('./FBD_wordbox1.png');
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    z-index: 1; 
+}
+.QAR-box{
+    position: relative;
+    margin-top: 40px;
+    width: 1000px;
+    height: 400px;
+    background-image: url('./FBD_wordbox2.png');
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+}
+.QAL-textbox{
+    font-size: 20px;
+    margin-left: 150px;
+    position: absolute;
+    width: 500px;
+    line-height: 35px; /*문자사이 높이*/
+    top: 50%;  /*위에 contents-picture의 top에서 50% 내림*/
+    transform: translate(0, -50%); /*높이를 50%으로 올림 top과 transform을 이용해서 중앙에 위치*/
+}
+.QAL-textbox-1{
+    font-size: 20px;
+    margin-left: 175px;
+    position: absolute;
+    width: 500px;
+    line-height: 35px; /*문자사이 높이*/
+    top: 50%;  /*위에 contents-picture의 top에서 50% 내림*/
+    transform: translate(0, -50%); /*높이를 50%으로 올림 top과 transform을 이용해서 중앙에 위치*/
+}
+.QAR-textbox{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    width: 500px;
+    position: absolute;
+    line-height: 35px; /*문자사이 높이*/
+    top: 50%;  /*위에 contents-picture의 top에서 50% 내림*/
+    transform: translate(0, -50%); /*높이를 50%으로 올림 top과 transform을 이용해서 중앙에 위치*/
+}
+.QAR-textbox4{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    width: 500px;
+    position: absolute;
+    line-height: 30px; /*문자사이 높이*/
+    top: 50%;  /*위에 contents-picture의 top에서 50% 내림*/
+    transform: translate(0, -50%); /*높이를 50%으로 올림 top과 transform을 이용해서 중앙에 위치*/
+}
+
+
+
+.Web, .Language, .Study, .Project, .Question, .Support, .Discord, .GitHub{
+    font-weight: bold;
+    color: black;
+    text-decoration: none; /*a태그 밑줄 없음*/
+}
