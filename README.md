@@ -40,7 +40,7 @@
 > 광고 배너는 부트스트랩에 캐러셀(Carousel)을 이용하여 만들었습니다.                                      
 > 광고의 배너는 '야너두'의 패러디로 만들었습니다.           
 
-<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/9e550c4b-906f-4e10-928e-2d996c557e60" width="400" height="400"/><br/>    ['학생복지스토어'의 광고 배너]
+<img src="https://github.com/jiho0419/web-programming-project/assets/127321491/9e550c4b-906f-4e10-928e-2d996c557e60" width="400" height="400"/><br/>    ['학생복지스토어'의 3번째 광고 배너]
 
 
 
@@ -106,7 +106,8 @@
     
 **④ :**     <img src="https://github.com/jiho0419/web-programming-project/assets/127321491/5e396d9e-3800-4a08-af96-b8850380ed0d" width="350" height="100"/>      
  > 웹 페이지의 우측 상단에 로그인과 정보를 입력할 수 있는 검색창을 만들었습니다.    
- > 로그인은 Question / Study / Project를 이용하는데 불편함이 없이 만들게 되었습니다. 검색창을 통해 웹페이지에 자신이 원하는 정보를 바로 찾을 수 있습니다.          
+ > 로그인은 Question / Study / Project를 이용하는데 불편함이 없이 만들게 되었습니다. 검색창을 통해 웹페이지에 자신이 원하는 정보를 바로 찾을 수 있습니다.      
+ > 로그인의 ID는 jiho Password는 1234입니다. 5번 이상 틀리면 30초동안 잠기는 기능을 추가했습니다.               
 
 <br/>    
 
