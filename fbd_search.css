@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+
+/*날씨 API*/
+.weather-container{
+    background-color: burlywood;
+    border: 2px solid brown;
+    border-radius: 10px;
+  }
+  .weather-container{
+    position:fixed;
+    top: 174px;
+    right: 5px;
+  }
+  .weather-txt{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 50px;
+    width: 187px;
+  }
+  .weather-txt p{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .weather-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 60px;
+  }
+  #icon-info{
+    padding-bottom: 10px;
+    padding-right: 8px;
+    font-size: 20px;
+  }
+  .weather-temperature, .weather-city{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+  }
+  #city-info, #temperature-info{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .weather-box{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+  }
+  .fa-sun,
+  .fa-cloud-sun,
+  .fa-cloud,
+  .fa-cloud-meatball,
+  .fa-cloud-showers-heavy,
+  .fa-cloud-rain,
+  .fa-bolt,
+  .fa-snowflake,
+  .fa-smog {
+      font-size: 2em;
+  }
+
+/*화분 검색 로그인*/
+header{ 
+    display: block; 
+    height: 150px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.ct-button{
+    display: flex;
+    justify-content: space-between; /*양 옆으로 배치*/
+    align-items: center;
+    height: 40px;
+    padding-left: 30px;
+    width: 95%; 
+}
+.login-search{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+}
+.search-button{
+    color: burlywood;
+    font-size: 17px;
+    text-decoration: none;
+}
+.login-button{
+    color: burlywood;
+    font-size: 17px;
+    text-decoration: none;
+}
+.pot{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pot-picture{
+    display: block;
+    background-image: url(./FBD_pot.png);
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    width: 27px;
+    height: 27px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.logo-picture{
+    display: block;
+    background-image: url(./FBD_font.png);
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+    width: 140px;
+    height: 140px;
+}
+
+
+
+.container2 {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#main-menu > li {
+    float: left;
+    position: relative;
+    width: 170px;
+}
+#main-menu > li > a {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.85);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    display: block;
+    padding: 14px 36px;
+    border-right: 1px solid rgba(0,0,0,0.15);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    background: burlywood;    
+}
+#main-menu > li:nth-child(1) > a {
+    border-left: 1px solid rgba(0,0,0,0.15);
+}
+#sub-menu {
+    position: absolute;
+    background: rgb(116, 47, 47);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in;
+    width: 170px;
+    z-index: 2;
+}
+#sub-menu > li {
+      padding: 16px 28px;
+      border-bottom: 1px solid rgba(0,0,0,0.15);
+      position: relative;
+}
+#sub-menu > li >  a {
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+#main-menu > li:hover > #sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+#sub-menu > li >  a:hover {
+   text-decoration: underline;
+}
+section {
+    column-width: 15em;
+    background: #dadadf;
+    padding: 2em 12em;
+}
+#ssub-menu {
+      position: absolute;
+      background: darkred;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.15s ease-in;
+      width: 170px;
+      left: 0; 
+      top: 100%; 
+      z-index: 1; 
+}
+#sub-menu > li > #ssub-menu {
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.15s ease-in;
+      width: 170px;
+      left: 0; 
+      top: 100%;
+      z-index: 1; 
+}
+#ssub-menu > li {
+      padding: 16px 28px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+#sub-menu > li:hover #ssub-menu {
+      opacity: 1;
+      visibility: visible;
+}
+#ssub-menu > li > a {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+}
+
+
+
+#sub-menu.sub-menu-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.container3{
+    display: block;
+    background-color: rgb(216, 195, 167); 
+    margin: 0 auto;
+    width: 71.7%;
+}
+.box3{
+    display: flex;
+    margin-top: 1px;
+    background-color: rgb(216, 195, 167); 
+}
+.navbar-name1{
+    margin-left: 10px;
+    display: flex;
+    width: 30px;
+    align-items: center;
+    color: rgba(255,255,255,0.85);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    font-size: 13px;
+    height: 30px;
+}
+.navbar-name2{
+    margin-left: 10px;
+    display: flex;
+    width: 30px;
+    align-items: center;
+    color: rgba(255,255,255,0.85);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    font-size: 13px;
+    height: 30px;
+}
+.navbar-and{
+    margin-left: 10px;
+    display: flex;
+    width: 20px;
+    align-items: center;
+    color: rgba(255,255,255,0.85);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    font-size: 13px;
+    height: 30px;
+}
+
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search {
+    position: relative;
+    width: 600px; 
+    margin-bottom: 20px; 
+}
+.search-bar {
+    width: 100%;
+    border: 2px solid #bbb; 
+    border-radius: 16px; 
+    padding: 20px 24px;
+    font-size: 28px; 
+}
+.search-img {
+    position: absolute;
+    width: 34px; 
+    top: 20px; 
+    right: 24px; 
+    margin: 0;
+    cursor: pointer;
+}
+.search-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.allDelete.off {
+    display: none;
+}
+.allDelete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px; 
+}
+.tit {
+    font-size: 36px; 
+}
+.btn {
+    cursor: pointer;
+    color: red;
+    margin-top: 20px;
+}
+.txt {
+    margin-top: 0;
+    font-size: 28px; 
+    margin-bottom: 20px; 
+}
+#search-list {
+    list-style: none;
+    padding: 0;
+}
+
+
+/*footer*/
+.footer{
+    background-color:rgb(255, 248, 231); 
+    height: 200px;
+    margin-top: 400px;
+}
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    color: #787a87;
+}
+.logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-image: url('./FBD_logo.png');
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+}
+.dv-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+.dv-box a{
+    align-items: center;
+    color: #232325;
+    text-decoration: none; /* a태그 밑줄 없음*/
+}
+.dv-box div{
+    width: 300px;
+}
+.icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.instagramIcon, .facebookIcon, .youtubeIcon, .twitterIcon, .githubIcon, .discordIcon{
+    width: 65px;
+    height: 65px;
+    background-size: contain; /*이미지 비율 유지하면서 내부에 맞게 적용*/
+    background-position: center;
+    background-repeat: no-repeat; /*배경 이미지를 한번만 표시*/
+}
+
+.Web, .Language, .Study, .Project, .Question, .Support, .Discord, .GitHub{
+    font-weight: bold;
+    color: black;
+    text-decoration: none; /*a태그 밑줄 없음*/
+}
