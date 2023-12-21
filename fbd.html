@@ -3,164 +3,181 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="fbdst.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="shortcut icon" type="image/x-icon" href="FBD_logo.png">
         <title>FBD For Beginner Developer</title>
     </head>
     <body>
-        <header class="container1">
-            <div class="box1">
-                <div class="ct-button">
-                    <div class="pot">
-                        <a class="pot-picture" href="#"></a>
-                    </div>
-                    <div class="login-search">
-                        <a class="search-button" href="./fbdSearch.html">검색</a>
-                        <a class="login-button" href="./fbdLogin.html">로그인</a>
-                    </div>
-                </div>
-                <div class="logo">
-                    <a class="logo-picture" href="./fbd.html"></a>
-                </div>
-            </div>
-        </header>
+      <div class="weather-container">
+        <div class="weather-txt">
+          <p id="weather-title">현재 날씨</p>
+        </div>
+        <div class="weather-box">
+          <div class="weather-infomation">
+            <div class="weather-city"><p id="city-info">도시<br></p></div>
+            <div class="weather-temperature"><p id="temperature-info">온도</p></div>
+          </div>
+          <div class="weather-icon">
+            <div id="icon-info"></div>
+          </div>
+        </div>
+      </div>
 
-        <nav class="container2">
-            <ul id="main-menu">
-              <li><a class="Web">Web</a>
-                <ul id="sub-menu">
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> HTML</a>
-                    <ul id="ssub-menu">
-                      <li><a href="#"><img src="./sprout.png" width="20" height="20">CSS</a></li>
-                      <li><a href="#"><img src="./sprout.png" width="20" height="20">CSS</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> CSS</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Javascript</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> React</a></li>
+      <header class="container1">
+          <div class="box1">
+              <div class="ct-button">
+                  <div class="pot">
+                      <a class="pot-picture" href="#"></a>
+                  </div>
+                  <div class="login-search">
+                      <a class="search-button" href="./fbdSearch.html">검색</a>
+                      <a class="login-button" href="./fbdLogin.html">로그인</a>
+                  </div>
+              </div>
+              <div class="logo">
+                  <a class="logo-picture" href="./fbd.html"></a>
+              </div>
+          </div>
+      </header>
+
+      <nav class="container2">
+        <ul id="main-menu">
+          <li><a class="Web">Web</a>
+            <ul id="sub-menu">
+              <li><a class="WebHtml"><img src="./waterbubble.png" width="15" height="15"> HTML</a>
+                <ul id="ssub-menu">
+                  <li><a class="WebHStudy"><img src="./sprout.png" width="20" height="20">study</a></li>
+                  <li><a class="WebHTip"><img src="./sprout.png" width="20" height="20">Tip</a></li>
                 </ul>
               </li>
-              <li><a class="Language">Language</a>
-                <ul id="sub-menu">
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> C</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Java</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> C#</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Python</a></li>
-                </ul></li>
-              </li>
-              <li><a class="Study">Study</a>
-                <ul id="sub-menu">
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Find Group</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Discord</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Github</a></li>
-                </ul></li>
-              </li>
-              <li><a class="Project">Project</a>
-                <ul id="sub-menu">
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Find Group</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Discord</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Github</a></li>
-                </ul></li>
-              </li>
-              <li><a class="Question">Question</a>
-                <ul id="sub-menu">
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> 코딩질문</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> 기타질문</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Discord</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> Github</a></li>
-                </ul></li>
-              </li>
-              <li><a class="Support">Support</a>
-                <ul id="sub-menu">
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> 공지사항</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> 오류문의</a></li>
-                  <li><a href="#"><img src="./waterbubble.png" width="15" height="15"> 기타문의</a></li>
-                </ul></li>
-              </li>
+              <li><a class="WebCss" href="#"><img src="./waterbubble.png" width="15" height="15"> CSS</a></li>
+              <li><a class="WebJavaScript"href="#"><img src="./waterbubble.png" width="15" height="15"> Javascript</a></li>
+              <li><a class="WebReact" href="#"><img src="./waterbubble.png" width="15" height="15"> React</a></li>
             </ul>
-          </nav>
+          </li>
+          <li><a class="Language">Language</a>
+            <ul id="sub-menu">
+              <li><a class="LanguageC"><img src="./waterbubble.png" width="15" height="15"> C</a></li>
+              <li><a class="LanguageJava"><img src="./waterbubble.png" width="15" height="15"> Java</a></li>
+              <li><a class="LanguagePython"><img src="./waterbubble.png" width="15" height="15"> Python</a></li>
+            </ul></li>
+          </li>
+          <li><a class="Study">Study</a>
+            <ul id="sub-menu">
+              <li><a class="StudyFG"><img src="./waterbubble.png" width="15" height="15"> Find Group</a></li>
+              <li><a class="StudyMS"><img src="./waterbubble.png" width="15" height="15"> Meeting</a></li>
+            </ul></li>
+          </li>
+          <li><a class="Project">Project</a>
+            <ul id="sub-menu">
+              <li><a class="ProjectFG"><img src="./waterbubble.png" width="15" height="15"> Find Group</a></li>
+              <li><a class="ProjectMS"><img src="./waterbubble.png" width="15" height="15"> Meeting</a></li>
+            </ul></li>
+          </li>
+          <li><a class="Question">Question</a>
+            <ul id="sub-menu">
+              <li><a class="QuestionCode"><img src="./waterbubble.png" width="15" height="15"> 코딩질문</a></li>
+              <li><a class="QuestionEtc"><img src="./waterbubble.png" width="15" height="15"> 기타질문</a></li>
+            </ul></li>
+          </li>
+          <li><a class="Support">Support</a>
+            <ul id="sub-menu">
+              <li><a class="SupportAn"><img src="./waterbubble.png" width="15" height="15"> 공지사항</a></li>
+              <li><a class="SupportError"><img src="./waterbubble.png" width="15" height="15"> 오류문의</a></li>
+              <li><a class="SupportEtc"><img src="./waterbubble.png" width="15" height="15"> 기타문의</a></li>
+            </ul></li>
+          </li>
+        </ul>
+      </nav>
 
-          <div class="container3">
-            <div class="box3">
-                <span class="navbar-name1">FBD </span>
-            </div>
+        <div class="container3">
+          <div class="box3">
+              <span class="navbar-name1">FBD </span>
           </div>
+        </div>
 
 
-          <div class="container4">
-            <div class="box4">
-                <div class="explanation-box">
-                    <div class="ginner1"></div>
-                    <div class="QAL-box">
-                        <div class="QAL-textbox-1"><b>안녕 내 이름은 기너야! 사이트 안내를 도와줄께! <br/> 궁금한 점이 있으면 물어봐 다 대답해줄께!</b></div>
-                    </div>
-                </div>
-                <div class="explanation-box">
-                    <div class="QAR-box">
-                        <div class="QAR-textbox">
-                            <div><b>Q: FBD는 무슨 사이트야?</b></div>
-                            <div>A: FBD은 For Beginner Developer의 줄인 말로 초보 개발자를 위한 코딩 사이트야! <br/>
-                                    코딩에 대해서 공부할 수 있게 정리 되어있고 스터디 그룹이나 프로젝트 그룹을 찾아서 더욱 자신을 성장 시킬 수 있지!</div>
-                        </div>
-                    </div>
-                    <div class="ginner2"></div>
-                </div>
-                <div class="explanation-box">
-                    <div class="ginner3"></div>
-                    <div class="QAL-box">
-                        <div class="QAL-textbox">
-                            <div><b>Q: FBD는 어떤 기능이 있는거야?</b></div>
-                            <div>A: FBD에는 코딩 공부할 수 있는 <a class="Web">Web</a> / <a class="Language">Lanuage</a>가 있어서 원하는 언어를 공부할 수 있어! <br/>
-                            공부하다가 막히는 부분은  <a class="Question">Question</a>에 올려서 다른 개발자에게 도움을 받을 수 있어서 좋아! <br/>
-                            같이 공부하고 싶은 사람은 <a class="Study">Study</a>를 통해 스터디 모임을 만들 수 있고 경험을 쌓고 싶은 사람들은 <a class="Project">Project</a>를 통해 다른 사람과 프로젝트를 만들어 볼 수 있지!
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="explanation-box">
-                    <div class="QAR-box">
-                        <div class="QAR-textbox4">
-                            <div><b>Q: 기능들을 어떻게 써야 될지 모르겠어!</b></div>
-                            <div>A: 그럼 내가 기능에 대해서 하나씩 설명해줄께! <br/>
-                                <a class="Web">Web</a> : <a class="Web">Web</a>에는 프론트엔드 (HTML,CSS,JavaScript)에 대해서 공부 할 수 있어! 공부에 도움되는 동영상과 코드에 대한 설명, 팁 같은게 있으니 유용하게 사용할 수 있지!
-                                <br/><a class="Language">Lanuage</a>: Java/C언어 대해서 공부할 수 있는 기능이야! <a class="Web">Web</a>과 똑같이 공부에 도움되는 동영상이랑 언어에 대한 설명, 팁이 있으니깐 한번 이용해보는 게 어떨까?
-                                <br/><a class="Study">Study</a>: <a class="Study">Study</a>는 같이 공부할 사람들을 찾아볼 수 있는 기능이야! 같이 공부하고 싶다면 사용해봐! <a class="Discord">Discord</a>(FBD > Study Group)를 통해서 스터디 모임을 찾아보거나 글을 남겨서 찾는 것도 좋아!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ginner4"></div>
-                </div>
-                <div class="explanation-box">
-                    <div class="QAR-box">
-                        <div class="QAR-textbox4">
-                            <div><b>Q: 기능들을 어떻게 써야 될지 모르겠어!</b></div>
-                            <div>
-                                <a class="Project">Project</a>: <a class="Project">Project</a>는 프로젝트를 같이 만들 사람을 찾아볼 수 있어! 글을 남겨 사람을 찾아도 되고 <a class="Discord">Discord</a>(FBD > Project Group)를 통해 그룹을 만들어도 좋아!
-                                <br/><a class="Question">Question</a>: <a class="Question">Question</a>은 혼자 공부하다가 막히는 부분을 질문할 수 있는 곳이야! 질문할 때 자신의 코드를 <a class="GitHub">GitHub</a>에 올리면 편하게 궁금증을 해결 받을 수 있을 거야! 
-                                <br/><a class="Support">Support</a>: <a class="Support">Support</a>는 웹 제작자에게 문의하는 기능이야! 웹 페이지에 대한 문의나 웹 페이지의 오류, 추가적인 기능 등에 대해 문의하면 돼! 
-                                <br/>여기 방문한 <b>BD(Beginner Developer)</b>들! FBD를 통해 모두 더 한층 성장해서 자신의 목표에 한 걸음 나아가길 바랄께! 언제나 응원해!
+        <div class="container4">
+          <div class="box4">
+              <div class="explanation-box">
+                  <div class="ginner1"></div>
+                  <div class="QAL-box">
+                      <div class="QAL-textbox-1"><b>안녕 내 이름은 기너야! 사이트 안내를 도와줄께! <br/> 궁금한 점이 있으면 물어봐 다 대답해줄께!</b></div>
+                  </div>
+              </div>
+              <div class="explanation-box">
+                  <div class="QAR-box">
+                      <div class="QAR-textbox">
+                          <div><b>Q: FBD는 무슨 사이트야?</b></div>
+                          <div>A: FBD은 For Beginner Developer의 줄인 말로 초보 개발자를 위한 코딩 사이트야! <br/>
+                              &nbsp 코딩에 대해서 공부할 수 있게 정리 되어있고 스터디 그룹이나 프로젝트 그룹을 찾아서 더욱 자신을 성장 시킬 수 있지!</div>
+                      </div>
+                  </div>
+                  <div class="ginner2"></div>
+              </div>
+              <div class="explanation-box">
+                  <div class="ginner3"></div>
+                  <div class="QAL-box">
+                      <div class="QAL-textbox">
+                          <div><b>Q: FBD는 어떤 기능이 있는거야?</b></div>
+                          <div>A: FBD에는 코딩 공부할 수 있는 <a class="Web">Web</a> / <a class="Language">Lanuage</a>가 있어서 원하는 언어를 공부할 수 있어! <br/>
+                            &nbsp 공부하다가 막히는 부분은  <a class="Question">Question</a>에 올려서 다른 개발자에게 도움을 받을 수 있어서 좋아! <br/>
+                            &nbsp 같이 공부하고 싶은 사람은 <a class="Study">Study</a>를 통해 스터디 모임을 만들 수 있고 경험을 쌓고 싶은 사람들은 <a class="Project">Project</a>를 통해 다른 사람과 프로젝트를 만들어 볼 수 있지!
+                      </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="explanation-box">
+                  <div class="QAR-box">
+                      <div class="QAR-textbox4">
+                          <div><b>Q: 기능들을 어떻게 써야 될지 모르겠어!</b></div>
+                          <div>A: 그럼 내가 기능에 대해서 하나씩 설명해줄께! <br/>
+                              <a class="Web">Web</a> : <a class="Web">Web</a>에는 프론트엔드 (HTML,CSS,JavaScript)에 대해서 공부 할 수 있어! 공부에 도움되는 동영상과 코드에 대한 설명, 팁 같은게 있으니 유용하게 사용할 수 있지!
+                              <br/><a class="Language">Lanuage</a>: Java/C언어 대해서 공부할 수 있는 기능이야! <a class="Web">Web</a>과 똑같이 공부에 도움되는 동영상이랑 언어에 대한 설명, 팁이 있으니깐 한번 이용해보는 게 어떨까?
+                              <br/><a class="Study">Study</a>: <a class="Study">Study</a>는 같이 공부할 사람들을 찾아볼 수 있는 기능이야! 같이 공부하고 싶다면 사용해봐! <a class="Discord">Discord</a>(FBD > Study Group)를 통해서 스터디 모임을 찾아보거나 글을 남겨서 찾는 것도 좋아!
+                          </div>
+                      </div>
+                  </div>
+                  <div class="ginner4"></div>
+              </div>
+              <div class="explanation-box">
+                  <div class="QAR-box">
+                      <div class="QAR-textbox4">
+                          <div><b>Q: 기능들을 어떻게 써야 될지 모르겠어!</b></div>
+                          <div>
+                              <a class="Project">Project</a>: <a class="Project">Project</a>는 프로젝트를 같이 만들 사람을 찾아볼 수 있어! 글을 남겨 사람을 찾아도 되고 <a class="Discord">Discord</a>(FBD > Project Group)를 통해 그룹을 만들어도 좋아!
+                              <br/><a class="Question">Question</a>: <a class="Question">Question</a>은 혼자 공부하다가 막히는 부분을 질문할 수 있는 곳이야! 질문할 때 자신의 코드를 <a class="GitHub">GitHub</a>에 올리면 편하게 궁금증을 해결 받을 수 있을 거야! 
+                              <br/><a class="Support">Support</a>: <a class="Support">Support</a>는 웹 제작자에게 문의하는 기능이야! 웹 페이지에 대한 문의나 웹 페이지의 오류, 추가적인 기능 등에 대해 문의하면 돼! 
+                              <br/>여기 방문한 <b>BD(Beginner Developer)</b>들! FBD를 통해 모두 더 한층 성장해서 자신의 목표에 한 걸음 나아가길 바랄께! 언제나 응원해!
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ginner4"></div>
-                </div>
-            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="ginner4"></div>
+              </div>
           </div>
-        
-
-          <footer class="footer" style="background-color: aquamarine; height: 400px;">
-            <div class="container5">
-                <div class="logo-box">
-
-                </div>
-                <div class="dv-box">
-
-                </div>
-                <div class="icon-box">
-
-                </div>
-            </div>
-          </footer>
+        </div>
+      
+        <footer class="footer">
+          <div class="container5">
+              <div class="logo-box"></div>
+              <div class="dv-box">
+                <div><b>제작자 정보</b></div>
+                <div><b>이름 : </b>정지호</div>
+                <div><b>전화번호 : </b><a href='tel:010-1234-5678'><b>010-1234-5678</b></a></div>
+                <div><b>이메일 : </b><a href="mailto:hoo6710@naver.com"><b>hoo6710@naver.com</b></a></div>
+                <div><b>제작자 문의 : </b><a href="./fbdSupport.html"><b>문의하기</b></a></div>
+              </div>
+              <div class="icon-box">
+                <a class="instagramIcon"></a>
+                <a class="facebookIcon"><a>
+                <a class="youtubeIcon"><a>
+                <a class="twitterIcon"><a>
+                <a class="githubIcon"><a>
+                <a class="discordIcon"><a>
+              </div>
+          </div>
+        </footer>
 
 
         <script src="fbdsc.js"></script>
